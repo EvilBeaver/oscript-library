@@ -12,7 +12,7 @@
         <parameters>
           <param name="script.content"><![CDATA[cd /d %teamcity.build.checkoutDir%
 chcp 1251 >nul
-"C:\Program Files (x86)\OneScript\bin\oscript.exe" tests\finder.os]]></param>
+oscript tests\finder.os]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
@@ -20,9 +20,18 @@ chcp 1251 >nul
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="OneScript_OscriptLibraryGithub" />
+      <vcs-entry-ref root-id="OneScript_LocalOscriptLib" />
     </vcs-settings>
     <requirements />
-    <build-triggers />
+    <build-triggers>
+      <build-trigger id="vcsTrigger" type="vcsTrigger">
+        <parameters>
+          <param name="branchFilter" value="+:*" />
+          <param name="quietPeriod" value="600" />
+          <param name="quietPeriodMode" value="USE_CUSTOM" />
+        </parameters>
+      </build-trigger>
+    </build-triggers>
     <build-extensions>
       <extension id="BUILD_EXT_7" type="xml-report-plugin">
         <parameters>
