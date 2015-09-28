@@ -1,6 +1,6 @@
 #!/bin/sh
-@echo off
-pushd %~dp0\..\tests
-chcp 1251 >nul
+
+DIR=`dirname $(readlink -f $0)`
+pushd $DIR/../tests
 oscript finder.os
 popd
