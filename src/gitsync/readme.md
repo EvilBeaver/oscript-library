@@ -37,11 +37,18 @@
 * [локальный каталог git]
 * [-email домен почты пользователей]
 * [-v8version маска версии 1С] - маска версии в стиле стартера (8.3 или 8.3.5 или 8.2.19.109)
+* [-format <hierarchical|plain>] - использовать новый иерархический формат или же старый линейный формат выгрузки 1с
+* [-gitpublish on|off] - получать, публиковать ли данные с внешнего git сервера. При указании off <адрес (url) репозитария> можно указывать любую строку. Данные параметр пригодиться при использовании внешних средств для получения и отправки данных (в jenkins это git publisher)
+
 
 Пример:
 
     cd local-git-repo
     gitsync c:\storage\zup http://github.com/myAccount/zup.git -v8version 8.3.6
+    
+    gitsync c:\storage\zup "" c:\local-git-repo\src\cf -v8version 8.3.6 -gitpublish off 
+    
+    gitsync c:\storage\zup "" c:\local-git-repo\src\cf -v8version 8.3.6 -gitpublish off -format hierarchical
     
 ## Получение справки
 
