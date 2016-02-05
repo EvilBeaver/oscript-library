@@ -1,5 +1,7 @@
 # Библиотека полезных скриптов для 1Script
 
+[![Join the chat at https://gitter.im/EvilBeaver/oscript-library](https://badges.gitter.im/EvilBeaver/oscript-library.svg)](https://gitter.im/EvilBeaver/oscript-library?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Все пакеты библиотеки могут быть подключены с помощью директивы **#Использовать <ИмяПакета>**
 
 ## Краткий список и назначение пакетов
@@ -41,4 +43,4 @@
 
 ###strings
 
-Работа со строками. Фактически является копией общего модуля "СтроковыеФункцииКлиентСервер" из поставки Библиотеки Стандартных Подсистем.
+Работа со строками. API библиотеки совместимо с API модуля СтроковыеФункцииКлиентСервер из БСП.
