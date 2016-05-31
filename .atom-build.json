@@ -1,0 +1,9 @@
+{
+  "cmd": "oscript",
+  "name": "oscript-library Testing",
+  "args": [ "-encoding=utf-8", "tests/finder.os"],
+  "sh": false,
+  "errorMatch": [
+    "^\\{Модуль (?<file>.+) / Ошибка в строке: (?<line>[0-9]+) / (?<message>.*)\\}$"
+  ]
+}
