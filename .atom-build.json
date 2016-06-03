@@ -5,5 +5,12 @@
   "sh": false,
   "errorMatch": [
     "^\\{Модуль (?<file>.+) / Ошибка в строке: (?<line>[0-9]+) / (?<message>.*)\\}$"
-  ]
+  ],
+  "targets": {
+    "Test current test-file": {
+      "cmd": "oscript",
+      "args": [ "-encoding=utf-8", "tests/testrunner.os", "-run", "{FILE_ACTIVE}"],
+      "sh": false
+    }
+  }
 }
