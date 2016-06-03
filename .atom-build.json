@@ -4,7 +4,7 @@
   "args": [ "-encoding=utf-8", "tests/finder.os"],
   "sh": false,
   "errorMatch": [
-    "(Внешнее исключение: {Модуль) (?<file>[^/]+) / Ошибка в строке: (?<line>[0-9]+) / (?<message>.*)"
+    "{Модуль (?<file>[^/]+) / Ошибка в строке: (?<line>[0-9]+) / (?<message>.*)"
   ],
   "targets": {
     "Run current file": {
@@ -20,7 +20,7 @@
       "args": [ "-encoding=utf-8", "tests/testrunner.os", "-run", "{FILE_ACTIVE}"],
       "sh": false,
       "errorMatch": [
-        "(Внешнее исключение: {Модуль) (?<file>[^/]+) / Ошибка в строке: (?<line>[0-9]+) / (?<message>.*)"
+        "{Модуль (?<file>[^/]+) / Ошибка в строке: (?<line>[0-9]+) / (?<message>.*)"
       ]
     }
   }
