@@ -30,7 +30,7 @@ node("slave") {
 
     stage "exec gitsync features"
 
-    command = """oscript ./1bdd/src/bdd.os ./src/gitsync/features -out ./bdd-exec.log"""
+    command = """oscript -encoding=utf-8 ./1bdd/src/bdd.os ./src/gitsync/features -out ./bdd-exec.log"""
 
     def errors = []
     try{
