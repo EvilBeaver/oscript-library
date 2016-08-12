@@ -1,0 +1,4 @@
+[submodule "src/cmdline"]
+	path = src/cmdline
+	url = https://github.com/oscript-library/cmdline
+	branch = develop
