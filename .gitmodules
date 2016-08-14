@@ -2,3 +2,6 @@
 	path = src/cmdline
 	url = https://github.com/oscript-library/cmdline
 	branch = develop
+[submodule "src/json"]
+	path = src/json
+	url = https://github.com/oscript-library/json.git
