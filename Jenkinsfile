@@ -13,7 +13,10 @@ node("slave") {
     
     stage "test"
 
-    def commandToRun = "oscript -encoding=utf-8 finder.os";
+    // если использовать oscript -encoding=utf-8, то использовать в Jenkins на Windows ни одно переключение кодировок через chcp ХХХ не даст правильную кодировку, все время будут иероглифы !!
+    // в итого в Jenkins на Windows нужно запускать oscript без -encoding=utf-8  
+
+    def commandToRun = "oscript finder.os";
     dir('tests') {
         if (isUnix){
             sh "${commandToRun}"
@@ -30,7 +33,7 @@ node("slave") {
 
     stage "exec gitsync features"
 
-    command = """oscript -encoding=utf-8 ./1bdd/src/bdd.os ./src/gitsync/features -out ./bdd-exec.log"""
+    command = """oscript ./1bdd/src/bdd.os ./src/gitsync/features -out ./bdd-exec.log"""
 
     def errors = []
     try{
