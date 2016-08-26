@@ -5,3 +5,8 @@
 [submodule "src/json"]
 	path = src/json
 	url = https://github.com/oscript-library/json.git
+
+[submodule "src/1testrunner"]
+	path = src/1testrunner
+	url = https://github.com/oscript-library/1testrunner.git
+	branch = master
