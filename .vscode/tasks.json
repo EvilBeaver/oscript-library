@@ -10,14 +10,34 @@
         {
             "taskName": "Testing project",
             "args": [
-                "${workspaceRoot}/tests/finder.os",
-                "-runall",
-                "${workspaceRoot}/tests"
+                "${workspaceRoot}/tests/finder.os"
             ],
             "echoCommand": true,
             "showOutput": "always",
             "suppressTaskName": true,
-            // "isBuildCommand": false,
+            "isBuildCommand": false,
+            "isTestCommand": true,
+            "problemMatcher": {
+                "fileLocation": "absolute",
+                "pattern": {
+                    "regexp": "{Модуль\\s+(.+)\\s\\/\\s.*:\\s+(\\d+)\\s+\\/\\s+([^{]*)",
+                    "file": 1,
+                    "location": 2,
+                    "message": 3
+                }
+            }
+        },
+        {
+            "taskName": "Testing current test-file",
+            "args": [
+                "${workspaceRoot}/src/1testrunner/testrunner.os",
+                "-run",
+                "${file}",
+            ],
+            "echoCommand": true,
+            "showOutput": "always",
+            "suppressTaskName": true,
+            "isBuildCommand": false,
             "isTestCommand": true,
             "problemMatcher": {
                 "fileLocation": "absolute",
@@ -63,7 +83,7 @@
             "echoCommand": true,
             "showOutput": "always",
             "suppressTaskName": true,
-            // "isBuildCommand": false,
+            "isBuildCommand": false,
             "isTestCommand": true,
             "problemMatcher": {
                 "fileLocation": "absolute",
@@ -74,15 +94,6 @@
                     "location": 2,
                     "message": 3
                 }
-                // ,
-                // {
-                //     "regexp": "([^{]*)}",
-                //     // "file": 1,
-                //     // "location": 2,
-                //     "message": 1,
-                //     "loop":true
-                // }
-
                 ]
             }
         },
@@ -92,15 +103,13 @@
                 "${workspaceRoot}/../1bdd/src/bdd.os",
                 "gen",
                 "${file}",
-                // "-verbose", 
-                // "on", 
                 "-out", 
                 "${workspaceRoot}/exec.log"
             ],
             "echoCommand": true,
             "showOutput": "always",
             "suppressTaskName": true,
-            // "isBuildCommand": false,
+            "isBuildCommand": false,
             "isTestCommand": false,
             "problemMatcher": {
                 "fileLocation": "absolute",
