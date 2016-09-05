@@ -13,3 +13,6 @@
 [submodule "src/asserts"]
 	path = src/asserts
 	url = https://github.com/oscript-library/asserts.git
+[submodule "src/logos"]
+	path = src/logos
+	url = https://github.com/oscript-library/logos.git
