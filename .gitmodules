@@ -10,3 +10,6 @@
 	path = src/1testrunner
 	url = https://github.com/oscript-library/1testrunner.git
 	branch = master
+[submodule "src/asserts"]
+	path = src/asserts
+	url = https://github.com/oscript-library/asserts.git
