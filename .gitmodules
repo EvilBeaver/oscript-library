@@ -25,3 +25,6 @@
 [submodule "src/opm"]
 	path = src/opm
 	url = https://github.com/oscript-library/opm.git
+[submodule "src/tool1cd"]
+	path = src/tool1cd
+	url = https://github.com/oscript-library/tool1cd.git
