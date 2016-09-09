@@ -16,3 +16,6 @@
 [submodule "src/logos"]
 	path = src/logos
 	url = https://github.com/oscript-library/logos.git
+[submodule "src/tempfiles"]
+	path = src/tempfiles
+	url = https://github.com/oscript-library/tempfiles.git
