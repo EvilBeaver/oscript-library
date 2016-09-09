@@ -28,3 +28,6 @@
 [submodule "src/tool1cd"]
 	path = src/tool1cd
 	url = https://github.com/oscript-library/tool1cd.git
+[submodule "src/strings"]
+	path = src/strings
+	url = https://github.com/oscript-library/strings.git
