@@ -31,3 +31,6 @@
 [submodule "src/strings"]
 	path = src/strings
 	url = https://github.com/oscript-library/strings.git
+[submodule "src/v8runner"]
+	path = src/v8runner
+	url = https://github.com/oscript-library/v8runner.git
