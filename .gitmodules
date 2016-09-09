@@ -22,3 +22,6 @@
 [submodule "src/files-common"]
 	path = src/files-common
 	url = https://github.com/oscript-library/files-common.git
+[submodule "src/opm"]
+	path = src/opm
+	url = https://github.com/oscript-library/opm.git
