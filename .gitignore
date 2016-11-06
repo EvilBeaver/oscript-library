@@ -1,2 +1,2 @@
-.vscode/
 tests.xml
+tests/*.xml
