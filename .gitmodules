@@ -20,7 +20,7 @@
 	path = src/tempfiles
 	url = https://github.com/oscript-library/tempfiles.git
 [submodule "src/files-common"]
-	path = src/files-common
+	path = src/fs
 	url = https://github.com/oscript-library/files-common.git
 [submodule "src/opm"]
 	path = src/opm
