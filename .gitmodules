@@ -21,10 +21,6 @@
 [submodule "src/tempfiles"]
 	path = src/tempfiles
 	url = https://github.com/oscript-library/tempfiles.git
-[submodule "src/files-common"]
-	path = src/fs
-	url = https://github.com/oscript-library/files-common.git
-	branch = develop
 [submodule "src/opm"]
 	path = src/opm
 	url = https://github.com/oscript-library/opm.git
@@ -41,3 +37,6 @@
 	path = src/gitsync
 	url = https://github.com/oscript-library/gitsync.git
 	branch = develop
+[submodule "src/fs"]
+	path = src/fs
+	url = https://github.com/oscript-library/files-common
