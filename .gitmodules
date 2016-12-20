@@ -40,3 +40,7 @@
 [submodule "src/fs"]
 	path = src/fs
 	url = https://github.com/oscript-library/files-common
+[submodule "src/1commands"]
+	path = src/1commands
+	url = https://github.com/artbear/1commands.git
+	branch = develop
