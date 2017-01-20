@@ -8,41 +8,45 @@
 
 ## Краткий список и назначение пакетов
 
-###asserts
+###[asserts](https://github.com/oscript-library/asserts)
 
 Добавляет в скрипт функционал "Утверждений" (assertions). Возможны 2 стиля использования:
 
 * Модуль "Утверждения" - утверждения в стиле фреймворка xUnitFor1C
 * Свойство глобального контекста "Ожидаем" - fluent-API утверждений в стиле BDD
 
-###[cmdline](src/cmdline/readme.md)
+###[cmdline](https://github.com/oscript-library/cmdline)
 
 Библиотека разбора аргументов командной строки. Добавляет класс "ПарсерАргументовКоманднойСтроки", позволяющий удобным образом обрабатывать параметры запуска скрипта.
 
-###json
+###[files-common](https://github.com/oscript-library/files-common)
+
+Часто используемые функции для работы с файлами
+
+###[json](https://github.com/oscript-library/json)
 
 Порт модуля 1С:JSON Александра Переверзева с сайта infostart.ru
 
-###logos
+###[logos](https://github.com/oscript-library/logos)
 
 Библиотека логирования в стиле log4j
 
-###[v8runner](src/v8runner/readme.md)
+###[v8runner](https://github.com/oscript-library/v8runner)
 
 Удобная оболочка для запуска команд конфигуратора. Позволяет удобно запускать любые команды пакетного режима Конфигуратора и 1С:Предприятия.
 
-###tempfiles
+###[tempfiles](https://github.com/oscript-library/tempfiles)
 
 Менеджер управления временными файлами и каталогами
 
-###tool1cd
+###[tool1cd](https://github.com/oscript-library/tool1cd)
 
 Программная скриптовая обертка для популярной утилиты чтения файловых баз данных tool1cd от [awa](http://infostart.ru/profile/13819/) Удобно использовать, например, для работы с хранилищем 1С.
 
-###[gitsync](src/gitsync/readme.md)
+###[gitsync](https://github.com/oscript-library/gitsync)
 
 Синхронизация хранилища 1С с репозиторием git
 
-###strings
+###[strings](https://github.com/oscript-library/strings)
 
 Работа со строками. API библиотеки совместимо с API модуля СтроковыеФункцииКлиентСервер из БСП.

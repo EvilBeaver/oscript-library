@@ -1,0 +1,46 @@
+[submodule "src/cmdline"]
+	path = src/cmdline
+	url = https://github.com/oscript-library/cmdline
+	branch = develop
+[submodule "src/json"]
+	path = src/json
+	url = https://github.com/oscript-library/json.git
+	branch = develop
+[submodule "src/1testrunner"]
+	path = src/1testrunner
+	url = https://github.com/oscript-library/1testrunner.git
+	branch = develop
+[submodule "src/asserts"]
+	path = src/asserts
+	url = https://github.com/oscript-library/asserts.git
+	branch = develop
+[submodule "src/logos"]
+	path = src/logos
+	url = https://github.com/oscript-library/logos.git
+	branch = develop
+[submodule "src/tempfiles"]
+	path = src/tempfiles
+	url = https://github.com/oscript-library/tempfiles.git
+[submodule "src/opm"]
+	path = src/opm
+	url = https://github.com/oscript-library/opm.git
+[submodule "src/tool1cd"]
+	path = src/tool1cd
+	url = https://github.com/oscript-library/tool1cd.git
+[submodule "src/strings"]
+	path = src/strings
+	url = https://github.com/oscript-library/strings.git
+[submodule "src/v8runner"]
+	path = src/v8runner
+	url = https://github.com/oscript-library/v8runner.git
+[submodule "src/gitsync"]
+	path = src/gitsync
+	url = https://github.com/oscript-library/gitsync.git
+	branch = develop
+[submodule "src/fs"]
+	path = src/fs
+	url = https://github.com/oscript-library/files-common
+[submodule "src/1commands"]
+	path = src/1commands
+	url = https://github.com/artbear/1commands.git
+	branch = develop
