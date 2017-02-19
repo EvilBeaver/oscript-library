@@ -4,6 +4,10 @@
 
 <a href="https://zenhub.io"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
 
+**Библиотека скриптов переехала сюда: https://github.com/oscript-library**
+
+У каждого пакета из библиотеки теперь свой отдельный репозиторий.
+
 Все пакеты библиотеки могут быть подключены с помощью директивы **#Использовать <ИмяПакета>**
 
 ## Краткий список и назначение пакетов
