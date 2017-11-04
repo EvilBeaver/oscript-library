@@ -44,3 +44,7 @@
 	path = src/1commands
 	url = https://github.com/oscript-library/1commands.git
 	branch = master
+[submodule "src/gitrunner"]
+	path = src/gitrunner
+	url = https://github.com/oscript-library/gitrunner.git
+	branch = master
