@@ -44,3 +44,6 @@
 	path = src/1commands
 	url = https://github.com/artbear/1commands.git
 	branch = develop
+[submodule "src/gitrunner"]
+	path = src/gitrunner
+	url = https://github.com/oscript-library/gitrunner
