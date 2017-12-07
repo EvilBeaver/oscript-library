@@ -48,3 +48,7 @@
 	path = src/gitrunner
 	url = https://github.com/oscript-library/gitrunner.git
 	branch = master
+[submodule "oscript-config"]
+	path = src/oscript-config
+	url = https://github.com/oscript-library/oscript-config.git
+	branch = master
