@@ -1,5 +1,10 @@
 # Библиотека полезных скриптов для 1Script
 
+### ВНИМАНИЕ! МЫ ПЕРЕЕХАЛИ!
+Данный репо сохранен для истории. Вся актуальная разработка, свежие пакеты и многое-многое другое ведется в организации.
+
+https://github.com/oscript-library
+
 [![Join the chat at https://gitter.im/EvilBeaver/oscript-library](https://badges.gitter.im/EvilBeaver/oscript-library.svg)](https://gitter.im/EvilBeaver/oscript-library?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <a href="https://zenhub.io"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
